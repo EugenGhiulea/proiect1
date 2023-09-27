@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'proiect1';
+  numeCopil: string="Componenta copil"
+  evenimentParinte(parametru: any){
+      console.log(parametru)
+  }
 }
